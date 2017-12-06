@@ -35,6 +35,8 @@
 		<property name="hibernate.current_session_context_class">thread</property>
 		
 		<!-- 映射配置文件，需要引入映射的配置文件 -->
+		<mapping resource="com/itsteed/domain/Customer.hbm.xml"></mapping>
+		<mapping resource="com/itsteed/domain/Linkman.hbm.xml"></mapping>
 	</session-factory>
 	
 </hibernate-configuration>	
